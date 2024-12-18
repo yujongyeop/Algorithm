@@ -44,8 +44,6 @@ public class Sliver15649 {
         for (int i = 0; i<n;i++){
             if(!visited[i]){
                 dfs(i);
-            }else{
-                continue;
             }
         }
         visited[node] = false;
